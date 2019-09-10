@@ -1,0 +1,85 @@
+.body-wrapper {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.academic-title {
+  margin: 30px 0;
+}
+
+.para {
+  text-align: center;
+  font-size: 25px;
+  color: #021a4f;
+  margin-bottom: 30px;
+}
+
+.academic-img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+#academics_landing {
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper-content {
+  margin-bottom: 30px;
+}
+
+#su {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.inn-content {
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  #su {
+    width: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  #su {
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .wrapper-img {
+    text-align: center;
+  }
+
+  .inn-content {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #su {
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .wrapper-img {
+    text-align: center;
+  }
+
+  .inn-content {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=academics.css.map */

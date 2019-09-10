@@ -1,0 +1,29 @@
+.body-wrapper {
+  font-family:'Open Sans', sans-serif;
+}
+.titles {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif ;
+}
+
+article {
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+#body-img {
+  width: 100%;
+}
+
+.body-content {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=about-style.css.map */

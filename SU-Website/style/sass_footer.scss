@@ -1,0 +1,133 @@
+.copy-right {
+  color: $white;
+  padding: 6px;
+  text-align: center;
+  background-color: $copy_right_background;
+  font-family: $OpenSans;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.top-footer {
+  background-color: $primary_1;
+  padding-top: 62px;
+  padding-bottom: 70px;
+}
+
+.footer-content {
+  border-left: 1px solid $footer_content_border;
+  padding-left: 15px;
+  height: 100%;
+}
+
+
+.footer-headings h5 , #using-our-site h5 , #follow-us{
+  color: $primary_2;
+  text-transform: uppercase;
+  font-family: $OpenSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+}
+
+#footer-logo {
+  margin-top: 18px;
+}
+
+
+.footer-headings {
+  margin-bottom: 15px;
+}
+
+h5 span {
+  display: none;
+}
+
+#using-our-site {
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+}
+
+li {
+  list-style: none;
+  a {
+    color: $white;
+    font-family: $OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.82px;
+  }
+}
+
+/*navbar-nav.footer-links li {  
+    margin-top: 10px;
+}*/
+
+.find-us ul li {
+  margin-bottom: 15px;
+  a i, span {
+    color: $white;
+    margin-right: 10px;
+  }
+}
+
+#follow-us {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-social-icons a {
+  padding-right: 20px;
+  color: $white;
+}
+
+.email-contact {
+  font-size: 12px;
+}
+
+
+@media (min-width: 576px) {
+  ul.footer-links , ul.footer-links4 {
+    display: block !important;
+  }
+  h5 {
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 576px)  {
+  .footer-headings h5 {
+    pointer-events: none;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .footer-content {
+    border-left: none;
+    padding-left: 15px;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+  h5 span {
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+  .email-contact {
+    font-size: 11px;
+  }
+}
